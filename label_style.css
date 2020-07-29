@@ -1,0 +1,33 @@
+.webform-component-textfield {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 14px 0 0 20px;
+  transition: all 200ms;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 65%;
+  transform: translate3d(0, -25%, 0);
+}
+
+.alert-err {
+  float: right;
+  font-size: 12px;
+  margin-top: -65px;
+  color: red;
+  padding-right: 30px;
+}
+
+.req-fields {
+  font-size: 14px;
+  text-align: center;
+  color: #ffa400;
+}
